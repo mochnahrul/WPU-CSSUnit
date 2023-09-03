@@ -1,0 +1,53 @@
+/* Viewport Units */
+/* - vh relatif terhadap tinggi dari viewport */
+/* - vw relatif terhadap lebar dari viewport */
+/* - vmin relative terhadap dimensi terkecil sebuah viewport */
+/* - vmax relative terhadap dimensi terbesar sebuah viewport */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8em;
+}
+
+header {
+  background-color: lightgray;
+  background-image: url(img/bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+}
+
+h1 {
+  font-size: 4vmax;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin: auto;
+}
+
+section {
+  margin: 30px auto;
+  width: 80%;
+}
+
+section .detail {
+  font-size: 1.4rem;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0.5em 0;
+  margin-bottom: 2em;
+  color: black;
+}
+
+section p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  text-indent: 1em;
+}
